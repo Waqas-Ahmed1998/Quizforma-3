@@ -6,6 +6,10 @@
   .overlay {
     @apply after:absolute   after:top-0 after:left-0 after:w-full after:h-full after:bg-black/20
   }
+  .overlay-2 {
+    @apply after:absolute   after:top-0 after:left-0 after:w-full after:h-full after:bg-[#DEFFFD]/90
+
+  }
 
 }
 body {
@@ -14,6 +18,17 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+.option-selected{
+  background-color: #00C1C6;
+}
+
+.option{
+  background-color: #005C7D;
+  color:white;
+  box-shadow: 1px 1px 1px #129A9D;
+}
+
+
 .montserat {
   font-family: 'Montserrat', sans-serif;
 
@@ -21,6 +36,13 @@ body {
 .popins {
   font-family: 'Poppins', sans-serif;
 
+}
+.mitr-fonts {
+font-family: 'Mitr', sans-serif;
+
+}
+.bg-gradient {
+  background: linear-gradient(180deg, #E7FEFB 0%, #6AE1D9 100%);
 }
 .rgba {
   background-color: rgba(255,255,255, 0.9);
@@ -34,7 +56,6 @@ body {
 }
 .login-bottom-text{
   font-family: 'Roboto', sans-serif;
-
 }
 .disclaimer {
 
@@ -57,12 +78,14 @@ font-family: 'Changa', sans-serif;
 font-family: 'Dancing Script', cursive;
 font-family: 'Domine', serif;
 font-family: 'Fjalla One', sans-serif;
+font-family: 'Francois One', sans-serif;
 font-family: 'Grape Nuts', cursive;
 font-family: 'Inter', sans-serif;
 font-family: 'Lato', sans-serif;
 font-family: 'Libre Baskerville', serif;
 font-family: 'Lobster', cursive;
 font-family: 'Merriweather', serif;
+font-family: 'Mitr', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Serif', serif;
 font-family: 'Open Sans', sans-serif;
@@ -72,6 +95,7 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Prompt', sans-serif;
 font-family: 'Ranga', cursive;
 font-family: 'Roboto', sans-serif;
+font-family: 'Rokkitt', serif;
 font-family: 'Rubik Bubbles', cursive;
 font-family: 'Send Flowers', cursive;
 font-family: 'Source Sans Pro', sans-serif;

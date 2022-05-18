@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Anton&family=Anybody:ital,wght@1,300;1,400&family=Changa:wght@500&family=Dancing+Script:wght@400;500;600;700&family=Domine:wght@400;500;700&family=Fjalla+One&family=Francois+One&family=Grape+Nuts&family=Inter:wght@100;200;300;400;500;600;700;800&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;500;700;900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Oswald:wght@300;400;500;600;700&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,300;1,400&family=Prompt:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Ranga:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Rubik+Bubbles&family=Send+Flowers&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,600&family=Tajawal&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&family=Vazirmatn:wght@300;400;500;600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Anybody:ital,wght@1,300;1,400&family=Changa:wght@500&family=Dancing+Script:wght@400;500;600;700&family=Domine:wght@400;500;700&family=Fjalla+One&family=Francois+One&family=Grape+Nuts&family=Inter:wght@100;200;300;400;500;600;700;800&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Mitr:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;500;700;900&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Oswald:wght@300;400;500;600;700&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,300;1,400&family=Prompt:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Ranga:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Rokkitt:wght@300;400;500;600;700&family=Rubik+Bubbles&family=Send+Flowers&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,600&family=Tajawal&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&family=Vazirmatn:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -18,100 +18,132 @@
   <title>quiz-form</title>
 </head>
 
-<body class=" bg-[#414EC5]  ">
+<body class="   ">
 
+  <div class="bg-[linear-gradient(180deg,#E7FEFB_0%,#6AE1D9_100%)] h-full absolute w-full   ">
 
-  <div id="popup" class=" w-full md:max-w-[1200px]  top-0  ease-in-out   md:min-h-[695px] flex flex-col  text-center  bg-white shadow
-    min-h-[85vh]   mx-auto xl:mt-20 montserat relative ">
+    <div id="popup"
+      class=" w-full md:max-w-[934px]   top-0  ease-in-out   md:min-h-[665px] flex flex-col  text-center   min-h-[85vh]   mx-auto xl:mt-20 montserat relative lg:rounded-b-[12px] shadow-[0px_8px_18px_rgba(0,0,0,0.13)] overflow-hidden  bg-black">
+      <!-- popup background image  -->
+      <div class="absolute top-0 left-0 w-full h-full overlay-2 overflow-hidden ">
 
-    <!-- top content  -->
-    <div class="flex relative justify-center md:justify-between items-center  p-6">
-      <h2 class="font-medium md:text-[20px] text-[#414EC5] "> Student Registration Form</h2>
-      <div class="md:space-x-3  hidden md:flex ">
-        <!-- left arrow  -->
-        <i
-          class="flex md:scale-[1.2] hover:border-[#414EC5] hover:text-[#4b57c2]  transition-colors ease-out items-center rounded-full border-[2px] text-[#C6C6C6] border-[#ECECEC] cursor-pointer "><svg
-            class="" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-            fill="currentColor">
-            <path d="M0 0h24v24H0V0z" fill="none" />
-            <path
-              d="M14.71 6.71c-.39-.39-1.02-.39-1.41 0L8.71 11.3c-.39.39-.39 1.02 0 1.41l4.59 4.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L10.83 12l3.88-3.88c.39-.39.38-1.03 0-1.41z" />
-          </svg></i>
-        <!-- right arrow  -->
-        <i
-          class="flex md:scale-[1.2] hover:border-[#414EC5] hover:text-[#4b57c2] transition-colors ease-out items-center text-[#C6C6C6] rounded-full border-[2px] border-[#ECECEC] cursor-pointer "><svg
-            xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="currentColor">
-            <path d="M0 0h24v24H0V0z" fill="none" />
-            <path
-              d="M9.31 6.71c-.39.39-.39 1.02 0 1.41L13.19 12l-3.88 3.88c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l4.59-4.59c.39-.39.39-1.02 0-1.41L10.72 6.7c-.38-.38-1.02-.38-1.41.01z" />
-          </svg></i>
+        <img src="./img/Quizform-3-bg.svg" alt="" class="w-full h-full aspect-video object-cover ">
       </div>
-      <div class="w-full bottom-0 left-0 absolute h-1 bg-[#ECECEC]">
-        <div class="w-[15%] h-1 bg-[#414EC5]"></div>
+
+      <!-- top bar  -->
+
+      <div class=" relative  h-1 bg-[#B6E8E9] w-full min-h-[14px]">
+        <div class="w-[15%] h-full bg-[#01C6CA]"></div>
       </div>
+
+
+
+      <!-- content  -->
+
+      <div class="  relative items-center justify-center z-[2] ">
+        <div class=" md:max-w-[80%] space-y-6 mx-auto   pt-10 pb-6 px-2 relative">
+          <!-- previous next arrow section  -->
+          <div class="flex items-center  space-x-3 justify-center ">
+
+            <i class="cursor-pointer "><svg width="11" height="15" viewBox="0 0 11 15" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8.60476 14.5C8.98853 14.4978 9.36749 14.4183 9.71683 14.2667C10.0947 14.1077 10.4166 13.8483 10.6441 13.5194C10.8716 13.1905 10.9952 12.806 11 12.4119V2.58949C10.9952 2.19537 10.8716 1.81089 10.6441 1.48199C10.4166 1.15308 10.0947 0.89365 9.71683 0.734673C9.2821 0.538654 8.79842 0.463156 8.32091 0.516781C7.84341 0.570406 7.39129 0.750998 7.01608 1.03798L0.783562 5.94916C0.539156 6.1349 0.34178 6.37086 0.206117 6.63948C0.0704546 6.9081 0 7.20247 0 7.50068C0 7.79889 0.0704546 8.09326 0.206117 8.36188C0.34178 8.6305 0.539156 8.86646 0.783562 9.0522L7.01608 13.9634C7.46533 14.3112 8.02634 14.5007 8.60476 14.5Z"
+                  fill="#005C7D" fill-opacity="0.5" />
+              </svg>
+            </i>
+            <div class="mitr-fonts text-[#005C7D]">Question 1/13</div>
+            <i class="cursor-pointer"><svg width="11" height="15" viewBox="0 0 11 15" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.39524 14.5C2.01147 14.4978 1.63251 14.4183 1.28317 14.2667C0.905336 14.1077 0.583429 13.8483 0.355892 13.5194C0.128355 13.1905 0.00480644 12.806 0 12.4119V2.58949C0.00480644 2.19537 0.128355 1.81089 0.355892 1.48199C0.583429 1.15308 0.905336 0.89365 1.28317 0.734673C1.7179 0.538654 2.20158 0.463156 2.67909 0.516781C3.15659 0.570406 3.60871 0.750998 3.98392 1.03798L10.2164 5.94916C10.4608 6.1349 10.6582 6.37086 10.7939 6.63948C10.9295 6.9081 11 7.20247 11 7.50068C11 7.79889 10.9295 8.09326 10.7939 8.36188C10.6582 8.6305 10.4608 8.86646 10.2164 9.0522L3.98392 13.9634C3.53467 14.3112 2.97366 14.5007 2.39524 14.5Z"
+                  fill="#005C7D" />
+              </svg>
+            </i>
+          </div>
+          <h1 class="mitr-fonts text-[#005C7D] font-medium text-xl md:text-2xl text-center ">THIS IS THE FIRST
+            QUESTION.
+            WHICH
+            AMONG THE CHOICES BELOW IS YOUT ANSWER?</h1>
+
+        </div>
+        <div class="h-[1px]  bg-slate-200 w-full"></div>
+        <div class=" ">
+
+          <form action="" class=" mt-12   text-sm  max-w-[415px] mx-auto px-2 md:px-0   ">
+
+            <!-- option-1 -->
+
+
+            <div id="option-1"
+              class="w-full rounded-[12px] border border-transparent  transition-colors ease-out hover:border-[#01C6CA] bg-white md:min-h-[60px] pl-4 pr-2 py-2 md:py-0 flex cursor-pointer shadow-[0px_2px_10px_rgba(0,0,0,0.16)] items-center space-x-3 my-3 ">
+              <!-- option  -->
+              <span id="option-A"
+                class="rounded-full inline-block text-center  w-[30px] h-[30px] bg-[#DEFFFD] shadoww text-lg mitr-fonts shadow-[1px_1px_1px_#BDD0CF] font-medium text-[#005C7D]">A</span>
+              <!-- option content  -->
+              <span class="mitr-fonts text-base md:text-xl text-[#005C7D] ">This is the first choice.</span>
+
+            </div>
+
+            <!-- option-2 -->
+
+
+            <div id="option-2"
+              class="w-full rounded-[12px] border border-transparent  transition-colors ease-out hover:border-[#01C6CA] bg-white md:min-h-[60px] cursor-pointer shadow-[0px_2px_10px_rgba(0,0,0,0.16)] flex items-center pl-4 pr-2 space-x-3 my-3 py-2 md:py-0 ">
+              <!-- option  -->
+              <span id="option-B"
+                class="rounded-full flex justify-center items-center text-center w-[30px] h-[30px] bg-[#DEFFFD] text-lg mitr-fonts shadow-[1px_1px_1px_#BDD0CF] font-medium text-[#005C7D]">B</span>
+              <!-- option content  -->
+              <span class="mitr-fonts text-base md:text-xl text-[#005C7D] ">This is the second choice.</span>
+            </div>
+
+            <!-- option-3 -->
+
+            <div id="option-3"
+              class="w-full rounded-[12px] border border-transparent  transition-colors ease-out hover:border-[#01C6CA] bg-white md:min-h-[60px] cursor-pointer shadow-[0px_2px_10px_rgba(0,0,0,0.16)] flex items-center pl-4 pr-2 space-x-3 my-3 py-2 md:py-0 ">
+              <!-- option  -->
+              <span id="option-C"
+                class="rounded-full flex justify-center items-center text-center w-[30px] h-[30px] bg-[#DEFFFD] text-lg mitr-fonts shadow-[1px_1px_1px_#BDD0CF] font-medium text-[#005C7D]">C</span>
+              <!-- option content  -->
+              <span class="mitr-fonts text-base md:text-xl text-[#005C7D] ">This is the third choice.</span>
+            </div>
+
+            <!-- option-4 -->
+
+            <div id="option-4"
+              class="w-full rounded-[12px] border border-transparent  transition-colors ease-out hover:border-[#01C6CA] bg-white md:min-h-[60px] cursor-pointer shadow-[0px_2px_10px_rgba(0,0,0,0.16)] flex items-center pl-4 pr-2 space-x-3 my-3 py-2 md:py-0 ">
+              <!-- option  -->
+              <span id="option-D"
+                class="rounded-full flex justify-center items-center text-center w-[30px] h-[30px] bg-[#DEFFFD] text-lg mitr-fonts shadow-[1px_1px_1px_#BDD0CF] font-medium text-[#005C7D]">D</span>
+              <!-- option content  -->
+              <span class="mitr-fonts text-base md:text-xl text-[#005C7D] ">This is the fourth choice.</span>
+            </div>
+
+            <Button
+              class="bg-[#09D1D0]  mt-10   py-3  md:text-xl px-6 text-white rounded-[50px] popins font-semibold">NEXT
+              QUESTION</Button>
+          </form>
+
+
+        </div>
+
+      </div>
+
+      <div class="hidden md:block">
+        <div class="w-full flex justify-between absolute md:bottom-2 px-2  ">
+          <img src="./img/left-person.svg" alt="" class="object-contain ">
+          <img src="./img/Frame.png" alt="" class="object-contain  relative bottom-4">
+        </div>
+      </div>
+
     </div>
+    <footer class="flex justify-center items-center w-full flex-col pt-8 pb-2 px-2 space-y-3">
+      <h3 class="text-xs md:text-sm text-[#0B1636] popins font-light">Powered by</h3>
+      <img src="./img/QuizformLogo.svg" alt="" class="w-32  md:w-auto ">
+      <h3 class="text-xs md:text-sm text-[#0B1636] popins font-light">Create your survey now</h3>
 
-    <!-- middle content  -->
-
-    <div class=" mt-[70px] relative  ">
-
-      <!-- left arrow mobile  -->
-      <i
-        class="md:hidden absolute left-[3%] top-[68%] flex   hover:border-[#414EC5] hover:text-[#4b57c2]  transition-colors ease-out items-center md:rounded-full md:border-[2px] text-[#C6C6C6] md:border-[#ECECEC] cursor-pointer "><svg
-          class="scale-[1.4]" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-          fill="currentColor">
-          <path d="M0 0h24v24H0V0z" fill="none" />
-          <path
-            d="M14.71 6.71c-.39-.39-1.02-.39-1.41 0L8.71 11.3c-.39.39-.39 1.02 0 1.41l4.59 4.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L10.83 12l3.88-3.88c.39-.39.38-1.03 0-1.41z" />
-        </svg></i>
-      <!-- right arrow mobile -->
-      <i
-        class="flex md:hidden absolute right-[3%] top-[68%] hover:border-[#414EC5] hover:text-[#4b57c2] transition-colors ease-out items-center text-[#C6C6C6]   cursor-pointer "><svg
-          class="scale-[1.4]" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"
-          fill="currentColor">
-          <path d="M0 0h24v24H0V0z" fill="none" />
-          <path
-            d="M9.31 6.71c-.39.39-.39 1.02 0 1.41L13.19 12l-3.88 3.88c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l4.59-4.59c.39-.39.39-1.02 0-1.41L10.72 6.7c-.38-.38-1.02-.38-1.41.01z" />
-        </svg></i>
-
-      <div class="flex flex-col items-center self-start ">
-
-        <img src="./img/Name_Icon.svg" alt="" class="my-2">
-        <h2 class="md:text-base text-[#414EC5]">Student Name</h2>
-        <form action="" class=" mt-6 space-y-3  text-sm  max-w-[235px]   ">
-
-          <input type="text" placeholder="First Name"
-            class="placeholder-black  px-2 focus:ring-0 focus:outline-none rounded-[6px] w-full border border-[#414EC5]  min-h-[50px]">
-          <input type="text" placeholder="Middle Name"
-            class="placeholder-black  px-2 focus:ring-0 focus:outline-none rounded-[6px] w-full border border-[#414EC5]  min-h-[50px]">
-          <input type="text" placeholder="Last Name"
-            class=" placeholder-black  px-2 focus:ring-0 focus:outline-none rounded-[6px] w-full border border-[#414EC5]   min-h-[50px]">
-
-        </form>
-      </div>
-
-    </div>
-    <div id="bottom-text"
-      class=" w-full  px-2 md:px-14 align-bottom justify-self-end justify-center  self-end absolute bottom-10 ">
-
-      <div class="space-x-2 justify-center text-sm text-[#757575] diclaimer flex items-center">
-        <i class=""><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10 5V7M10 9V15" stroke="#414EC5" stroke-width="2" stroke-linejoin="round" />
-            <circle cx="10" cy="10" r="9" stroke="#414EC5" stroke-width="2" />
-          </svg></i>
-        <a href="" class="text-[#414EC5]"> Help with this question</a>
-
-      </div>
-    </div>
-
+    </footer>
   </div>
-  <footer class="flex just-center items-center w-full flex-col pt-8 pb-2 px-2 space-y-3">
-    <h3 class="text-xs md:text-sm text-white popins font-extralight">Powered by</h3>
-    <img src="./img/Quizforma-logo.svg" alt="" class="w-32  md:w-auto ">
-    <h3 class="text-xs md:text-sm text-white popins font-extralight">Create your survey now</h3>
-
-  </footer>
-
 </body>
 <script src="./index.js"></script>
 
