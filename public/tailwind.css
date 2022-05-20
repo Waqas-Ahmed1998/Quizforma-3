@@ -11,6 +11,14 @@
 
   }
 
+  .option-design {
+    @apply w-full rounded-[12px] border border-transparent  transition-colors ease-out hover:border-[#01C6CA] bg-white md:min-h-[60px] cursor-pointer shadow-[0px_2px_10px_rgba(0,0,0,0.16)] flex items-center pl-4 pr-2 space-x-3 my-3 py-2 md:py-0 relative
+  }
+
+  .option-circle-design{
+    @apply rounded-full flex justify-center items-center text-center w-[30px] h-[30px] bg-[#DEFFFD] text-lg mitr-fonts shadow-[1px_1px_1px_#BDD0CF] font-medium text-[#005C7D]
+  }
+
 }
 body {
 
@@ -28,6 +36,9 @@ body {
   box-shadow: 1px 1px 1px #129A9D;
 }
 
+.gradient-background {
+  background-color: linear-gradient(180deg, #E7FEFB 0%, #6AE1D9 100%)
+}
 
 .montserat {
   font-family: 'Montserrat', sans-serif;
