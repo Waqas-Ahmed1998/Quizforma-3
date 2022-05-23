@@ -25,6 +25,9 @@
   .input-text {
     @apply h-[40px] md:h-[50px] rounded-md px-2 border border-[#01C6CA] focus:outline-none focus:border-[#01C6CA]
   }
+  .btn-choice {
+    @apply w-fit px-6 py-2 md:px-0 md:py-0 md:w-[122px] border shadow-[0px_2px_10px_rgba(0,0,0,0.16)] md:h-[60px] rounded-lg transition-colors ease-in-out bg-white text-black hover:bg-[#00C1C6] hover:text-white text-base md:text-xl mx-2
+  }
 
 }
 body {
