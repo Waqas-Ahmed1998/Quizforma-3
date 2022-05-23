@@ -18,6 +18,13 @@
   .option-circle-design{
     @apply rounded-full flex justify-center items-center text-center w-[30px] h-[30px] bg-[#DEFFFD] text-lg mitr-fonts shadow-[1px_1px_1px_#BDD0CF] font-medium text-[#005C7D]
   }
+  .btn-next {
+    @apply bg-[#09D1D0] relative md:absolute md:bottom-4 md:left-[50%] md:translate-x-[-50%] mt-5 md:mt-10 py-3  text-sm md:text-xl px-8 text-white rounded-[50px] popins font-semibold
+  }
+
+  .input-text {
+    @apply h-[40px] md:h-[50px] rounded-md px-2 border border-[#01C6CA] focus:outline-none focus:border-[#01C6CA]
+  }
 
 }
 body {

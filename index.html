@@ -23,6 +23,8 @@
   <!-- bg-[linear-gradient(180deg,#E7FEFB_0%,#6AE1D9_100%)] -->
 
 
+  <!-- popup -1  -->
+
   <div id="popup"
     class=" w-full md:max-w-[934px] pb-6 md:pb-0  top-0  ease-in-out  md:min-h-[665px] flex flex-col  text-center min-h-fit     mx-auto xl:mt-20 montserat relative lg:rounded-b-[12px] shadow-[0px_8px_18px_rgba(0,0,0,0.13)] overflow-hidden  bg-black">
     <!-- popup background image  -->
@@ -41,7 +43,7 @@
 
     <!-- content  -->
 
-    <div class="  relative items-center justify-center z-[2] ">
+    <div class="   items-center justify-center z-[2] ">
       <div class=" md:max-w-[80%] space-y-6 mx-auto   pt-10 pb-6 px-2 relative">
         <!-- previous next arrow section  -->
         <div class="flex items-center  space-x-3 justify-center ">
@@ -141,8 +143,7 @@
 
           </div>
 
-          <Button
-            class="bg-[#09D1D0] mt-5 md:mt-10   py-3  md:text-xl px-6 text-white rounded-[50px] popins font-semibold">NEXT
+          <Button class="btn-next">NEXT
             QUESTION</Button>
         </form>
 
@@ -150,6 +151,516 @@
       </div>
 
     </div>
+
+    <div class="hidden md:block">
+      <div class="w-full flex justify-between absolute md:bottom-2 px-2  ">
+        <img src="./img/left-person.svg" alt="" class="object-contain ">
+        <img src="./img/Frame.png" alt="" class="object-contain  relative bottom-4">
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- popup -2  -->
+
+  <div id="popup-2"
+    class=" w-full md:max-w-[934px] pb-6 md:pb-0  top-0  ease-in-out  md:min-h-[665px] flex flex-col  text-center min-h-fit     mx-auto xl:mt-20 montserat relative lg:rounded-b-[12px] shadow-[0px_8px_18px_rgba(0,0,0,0.13)] overflow-hidden  bg-black">
+    <!-- popup background image  -->
+    <div class="absolute top-0 left-0 w-full h-full overlay-2 overflow-hidden ">
+
+      <img src="./img/Quizform-3-bg.svg" alt="" class="w-full h-full aspect-video object-cover ">
+    </div>
+
+    <!-- top bar  -->
+
+    <div class=" relative  h-1 bg-[#B6E8E9] w-full min-h-[14px]">
+      <div class="w-[15%] h-full bg-[#01C6CA]"></div>
+    </div>
+
+
+
+    <!-- content  -->
+
+    <div class="   items-center justify-center z-[2] ">
+      <div class=" md:max-w-[80%] space-y-6 mx-auto   pt-10 pb-6 px-2 relative">
+        <!-- previous next arrow section  -->
+        <div class="flex items-center  space-x-3 justify-center ">
+
+          <!-- previous arrow svg -->
+
+          <i class="cursor-pointer "><svg width="11" height="15" viewBox="0 0 11 15" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.60476 14.5C8.98853 14.4978 9.36749 14.4183 9.71683 14.2667C10.0947 14.1077 10.4166 13.8483 10.6441 13.5194C10.8716 13.1905 10.9952 12.806 11 12.4119V2.58949C10.9952 2.19537 10.8716 1.81089 10.6441 1.48199C10.4166 1.15308 10.0947 0.89365 9.71683 0.734673C9.2821 0.538654 8.79842 0.463156 8.32091 0.516781C7.84341 0.570406 7.39129 0.750998 7.01608 1.03798L0.783562 5.94916C0.539156 6.1349 0.34178 6.37086 0.206117 6.63948C0.0704546 6.9081 0 7.20247 0 7.50068C0 7.79889 0.0704546 8.09326 0.206117 8.36188C0.34178 8.6305 0.539156 8.86646 0.783562 9.0522L7.01608 13.9634C7.46533 14.3112 8.02634 14.5007 8.60476 14.5Z"
+                fill="#005C7D" fill-opacity="0.5" />
+            </svg>
+          </i>
+          <div class="mitr-fonts text-[#005C7D]">Question 2/13</div>
+
+          <!-- next arrow svg -->
+
+          <i class="cursor-pointer"><svg width="11" height="15" viewBox="0 0 11 15" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.39524 14.5C2.01147 14.4978 1.63251 14.4183 1.28317 14.2667C0.905336 14.1077 0.583429 13.8483 0.355892 13.5194C0.128355 13.1905 0.00480644 12.806 0 12.4119V2.58949C0.00480644 2.19537 0.128355 1.81089 0.355892 1.48199C0.583429 1.15308 0.905336 0.89365 1.28317 0.734673C1.7179 0.538654 2.20158 0.463156 2.67909 0.516781C3.15659 0.570406 3.60871 0.750998 3.98392 1.03798L10.2164 5.94916C10.4608 6.1349 10.6582 6.37086 10.7939 6.63948C10.9295 6.9081 11 7.20247 11 7.50068C11 7.79889 10.9295 8.09326 10.7939 8.36188C10.6582 8.6305 10.4608 8.86646 10.2164 9.0522L3.98392 13.9634C3.53467 14.3112 2.97366 14.5007 2.39524 14.5Z"
+                fill="#005C7D" />
+            </svg>
+          </i>
+        </div>
+        <h1 class="mitr-fonts text-[#005C7D] font-medium text-xl md:text-2xl text-center ">
+          What is your name?</h1>
+
+      </div>
+      <div class="h-[1px]  bg-slate-200 w-full"></div>
+
+      <div class=" ">
+
+        <form action="" class=" mt-12   text-sm  max-w-[415px] mx-auto px-2 md:px-0 mitr-fonts  ">
+
+
+          <div id="" class=" space-y-2 md:space-y-4 ">
+
+            <div class="flex flex-col space-y-1">
+              <label class="text-[#005C7D] text-left ml-1 " for="">First Name</label>
+              <input id="option-1-input" name="name" value="" type="text" class="input-text ">
+            </div>
+
+            <div class="flex flex-col space-y-1">
+              <label class="text-[#005C7D] text-left ml-1 " for="">Last Name</label>
+              <input id="option-1-input" name="lastName" value="" type="text" class="input-text ">
+            </div>
+
+          </div>
+
+
+
+          <Button class="btn-next ">NEXT
+            QUESTION</Button </form>
+
+
+      </div>
+
+    </div>
+
+    <div class="hidden md:block">
+      <div class="w-full flex justify-between absolute md:bottom-2 px-2  ">
+        <img src="./img/left-person.svg" alt="" class="object-contain ">
+        <img src="./img/Frame.png" alt="" class="object-contain  relative bottom-4">
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- popup -3  -->
+
+  <div id="popup-3"
+    class=" w-full md:max-w-[934px] pb-6 md:pb-0  top-0  ease-in-out  md:min-h-[665px] flex flex-col  text-center min-h-fit     mx-auto xl:mt-20 montserat relative lg:rounded-b-[12px] shadow-[0px_8px_18px_rgba(0,0,0,0.13)] overflow-hidden  bg-black">
+    <!-- popup background image  -->
+    <div class="absolute top-0 left-0 w-full h-full overlay-2 overflow-hidden ">
+
+      <img src="./img/Quizform-3-bg.svg" alt="" class="w-full h-full aspect-video object-cover ">
+    </div>
+
+    <!-- top bar  -->
+
+    <div class=" relative  h-1 bg-[#B6E8E9] w-full min-h-[14px]">
+      <div class="w-[15%] h-full bg-[#01C6CA]"></div>
+    </div>
+
+
+
+    <!-- content  -->
+
+    <div class="   items-center justify-center z-[2] ">
+      <div class=" md:max-w-[80%] space-y-6 mx-auto   pt-10 pb-6 px-2 relative">
+        <!-- previous next arrow section  -->
+        <div class="flex items-center  space-x-3 justify-center ">
+
+          <!-- previous arrow svg -->
+
+          <i class="cursor-pointer "><svg width="11" height="15" viewBox="0 0 11 15" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.60476 14.5C8.98853 14.4978 9.36749 14.4183 9.71683 14.2667C10.0947 14.1077 10.4166 13.8483 10.6441 13.5194C10.8716 13.1905 10.9952 12.806 11 12.4119V2.58949C10.9952 2.19537 10.8716 1.81089 10.6441 1.48199C10.4166 1.15308 10.0947 0.89365 9.71683 0.734673C9.2821 0.538654 8.79842 0.463156 8.32091 0.516781C7.84341 0.570406 7.39129 0.750998 7.01608 1.03798L0.783562 5.94916C0.539156 6.1349 0.34178 6.37086 0.206117 6.63948C0.0704546 6.9081 0 7.20247 0 7.50068C0 7.79889 0.0704546 8.09326 0.206117 8.36188C0.34178 8.6305 0.539156 8.86646 0.783562 9.0522L7.01608 13.9634C7.46533 14.3112 8.02634 14.5007 8.60476 14.5Z"
+                fill="#005C7D" fill-opacity="0.5" />
+            </svg>
+          </i>
+          <div class="mitr-fonts text-[#005C7D]">Question 2/13</div>
+
+          <!-- next arrow svg -->
+
+          <i class="cursor-pointer"><svg width="11" height="15" viewBox="0 0 11 15" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.39524 14.5C2.01147 14.4978 1.63251 14.4183 1.28317 14.2667C0.905336 14.1077 0.583429 13.8483 0.355892 13.5194C0.128355 13.1905 0.00480644 12.806 0 12.4119V2.58949C0.00480644 2.19537 0.128355 1.81089 0.355892 1.48199C0.583429 1.15308 0.905336 0.89365 1.28317 0.734673C1.7179 0.538654 2.20158 0.463156 2.67909 0.516781C3.15659 0.570406 3.60871 0.750998 3.98392 1.03798L10.2164 5.94916C10.4608 6.1349 10.6582 6.37086 10.7939 6.63948C10.9295 6.9081 11 7.20247 11 7.50068C11 7.79889 10.9295 8.09326 10.7939 8.36188C10.6582 8.6305 10.4608 8.86646 10.2164 9.0522L3.98392 13.9634C3.53467 14.3112 2.97366 14.5007 2.39524 14.5Z"
+                fill="#005C7D" />
+            </svg>
+          </i>
+        </div>
+        <h1 class="mitr-fonts text-[#005C7D] font-medium text-xl md:text-2xl text-center ">
+          Where do you live?</h1>
+
+      </div>
+      <div class="h-[1px]  bg-slate-200 w-full"></div>
+
+      <div class=" mt-12   text-sm  max-w-[415px] mx-auto px-2 md:px-0 mitr-fonts  ">
+
+        <form action="" class=" ">
+
+
+          <div id="" class=" space-y-2 md:space-y-4 ">
+
+            <div class="flex flex-col space-y-1">
+              <label class="text-[#005C7D] text-left ml-1 " for="">Street Number</label>
+              <input id="option-1-input" name="street" value="" type="text" class="input-text ">
+            </div>
+
+            <div class="flex flex-col space-y-1">
+              <label class="text-[#005C7D] text-left ml-1 " for="">Street Number Line 2</label>
+              <input id="option-1-input" name="street-2" value="" type="text" class="input-text ">
+            </div>
+
+            <div class="flex flex-col space-y-1">
+              <label class="text-[#005C7D] text-left ml-1 " for="">City</label>
+              <input id="option-1-input" name="lastName" value="" type="text" class="input-text ">
+            </div>
+
+            <div class="flex gap-2 ">
+
+              <div class="flex flex-col  w-[70%] space-y-1 ">
+                <label class="text-[#005C7D] text-left ml-1 " for="">State / Province</label>
+                <input id="option-1-input" name="state" value="" type="text" class="input-text ">
+              </div>
+
+              <div class="flex flex-col w-[30%] space-y-1">
+                <label class="text-[#005C7D] text-left ml-1 " for="">Postal/Zip</label>
+                <input id="option-1-input" name="postal" value="" type="text" class="input-text">
+              </div>
+
+
+            </div>
+          </div>
+
+
+
+          <Button class="btn-next ">NEXT
+            QUESTION</Button </form>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+    <div class="hidden md:block">
+      <div class="w-full flex justify-between absolute md:bottom-2 px-2  ">
+        <img src="./img/left-person.svg" alt="" class="object-contain ">
+        <img src="./img/Frame.png" alt="" class="object-contain  relative bottom-4">
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- popup -4  -->
+
+  <div id="popup-4"
+    class=" w-full md:max-w-[934px] pb-6 md:pb-0  top-0  ease-in-out  md:min-h-[665px] flex flex-col  text-center min-h-fit     mx-auto xl:mt-20 montserat relative lg:rounded-b-[12px] shadow-[0px_8px_18px_rgba(0,0,0,0.13)] overflow-hidden  bg-black">
+    <!-- popup background image  -->
+    <div class="absolute top-0 left-0 w-full h-full overlay-2 overflow-hidden ">
+
+      <img src="./img/Quizform-3-bg.svg" alt="" class="w-full h-full aspect-video object-cover ">
+    </div>
+
+    <!-- top bar  -->
+
+    <div class=" relative  h-1 bg-[#B6E8E9] w-full min-h-[14px]">
+      <div class="w-[15%] h-full bg-[#01C6CA]"></div>
+    </div>
+
+
+
+    <!-- content  -->
+
+    <div class="   items-center justify-center z-[2] ">
+      <div class=" md:max-w-[80%] space-y-6 mx-auto   pt-10 pb-6 px-2 relative">
+        <!-- previous next arrow section  -->
+        <div class="flex items-center  space-x-3 justify-center ">
+
+          <!-- previous arrow svg -->
+
+          <i class="cursor-pointer "><svg width="11" height="15" viewBox="0 0 11 15" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.60476 14.5C8.98853 14.4978 9.36749 14.4183 9.71683 14.2667C10.0947 14.1077 10.4166 13.8483 10.6441 13.5194C10.8716 13.1905 10.9952 12.806 11 12.4119V2.58949C10.9952 2.19537 10.8716 1.81089 10.6441 1.48199C10.4166 1.15308 10.0947 0.89365 9.71683 0.734673C9.2821 0.538654 8.79842 0.463156 8.32091 0.516781C7.84341 0.570406 7.39129 0.750998 7.01608 1.03798L0.783562 5.94916C0.539156 6.1349 0.34178 6.37086 0.206117 6.63948C0.0704546 6.9081 0 7.20247 0 7.50068C0 7.79889 0.0704546 8.09326 0.206117 8.36188C0.34178 8.6305 0.539156 8.86646 0.783562 9.0522L7.01608 13.9634C7.46533 14.3112 8.02634 14.5007 8.60476 14.5Z"
+                fill="#005C7D" fill-opacity="0.5" />
+            </svg>
+          </i>
+          <div class="mitr-fonts text-[#005C7D]">Question 2/13</div>
+
+          <!-- next arrow svg -->
+
+          <i class="cursor-pointer"><svg width="11" height="15" viewBox="0 0 11 15" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.39524 14.5C2.01147 14.4978 1.63251 14.4183 1.28317 14.2667C0.905336 14.1077 0.583429 13.8483 0.355892 13.5194C0.128355 13.1905 0.00480644 12.806 0 12.4119V2.58949C0.00480644 2.19537 0.128355 1.81089 0.355892 1.48199C0.583429 1.15308 0.905336 0.89365 1.28317 0.734673C1.7179 0.538654 2.20158 0.463156 2.67909 0.516781C3.15659 0.570406 3.60871 0.750998 3.98392 1.03798L10.2164 5.94916C10.4608 6.1349 10.6582 6.37086 10.7939 6.63948C10.9295 6.9081 11 7.20247 11 7.50068C11 7.79889 10.9295 8.09326 10.7939 8.36188C10.6582 8.6305 10.4608 8.86646 10.2164 9.0522L3.98392 13.9634C3.53467 14.3112 2.97366 14.5007 2.39524 14.5Z"
+                fill="#005C7D" />
+            </svg>
+          </i>
+        </div>
+        <h1 class="mitr-fonts text-[#005C7D] font-medium text-xl md:text-2xl text-center ">
+          When is your Birthday?</h1>
+
+      </div>
+      <div class="h-[1px]  bg-slate-200 w-full"></div>
+
+      <div class=" mt-12   text-sm  max-w-[415px] mx-auto px-2 md:px-0 mitr-fonts  ">
+
+        <form action="" class=" ">
+
+
+          <div class="flex  justify-center space-x-4 ">
+
+            <!-- Day  -->
+
+            <div class=" relative">
+              <select
+                class="block appearance-none w-full bg-white border border-[#01C6CA] py-3 px-4 pr-8 rounded leading-tight focus:outline-none   text-[#005C7D] text-xs md:text-sm"
+                id="grid-state ">
+                <option>Day</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-[#01C6CA]">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+              </div>
+            </div>
+
+            <!-- month  -->
+
+            <div class="relative">
+              <select
+                class="block appearance-none w-full bg-white border border-[#01C6CA] text-[#005C7D] py-3 px-4 pr-8 rounded leading-tight focus:outline-none   text-xs md:text-sm"
+                id="grid-state ">
+                <option>Month</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-[#01C6CA]">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+              </div>
+            </div>
+
+            <!-- Year  -->
+
+            <div class="relative">
+              <select
+                class="block appearance-none  w-full bg-white border border-[#01C6CA] text-[#005C7D] py-3 px-4 pr-8 rounded leading-tight focus:outline-none   text-xs md:text-sm"
+                id="grid-state">
+                <option>Year</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-[#01C6CA]">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+              </div>
+            </div>
+
+          </div>
+
+
+          <Button class="btn-next ">NEXT
+            QUESTION</Button </form>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+    <div class="hidden md:block">
+      <div class="w-full flex justify-between absolute md:bottom-2 px-2  ">
+        <img src="./img/left-person.svg" alt="" class="object-contain ">
+        <img src="./img/Frame.png" alt="" class="object-contain  relative bottom-4">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- popup -5  -->
+
+  <div id="popup-5"
+    class=" w-full md:max-w-[934px] pb-6 md:pb-0  top-0  ease-in-out  md:min-h-[665px] flex flex-col  text-center min-h-fit     mx-auto xl:mt-20 montserat relative lg:rounded-b-[12px] shadow-[0px_8px_18px_rgba(0,0,0,0.13)] overflow-hidden  bg-black">
+    <!-- popup background image  -->
+    <div class="absolute top-0 left-0 w-full h-full overlay-2 overflow-hidden ">
+
+      <img src="./img/Quizform-3-bg.svg" alt="" class="w-full h-full aspect-video object-cover ">
+    </div>
+
+    <!-- top bar  -->
+
+    <div class=" relative  h-1 bg-[#B6E8E9] w-full min-h-[14px]">
+      <div class="w-[15%] h-full bg-[#01C6CA]"></div>
+    </div>
+
+
+
+    <!-- content  -->
+
+    <div class="   items-center justify-center z-[2] ">
+      <div class=" md:max-w-[80%] space-y-6 mx-auto   pt-10 pb-6 px-2 relative">
+        <!-- previous next arrow section  -->
+        <div class="flex items-center  space-x-3 justify-center ">
+
+          <!-- previous arrow svg -->
+
+          <i class="cursor-pointer "><svg width="11" height="15" viewBox="0 0 11 15" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.60476 14.5C8.98853 14.4978 9.36749 14.4183 9.71683 14.2667C10.0947 14.1077 10.4166 13.8483 10.6441 13.5194C10.8716 13.1905 10.9952 12.806 11 12.4119V2.58949C10.9952 2.19537 10.8716 1.81089 10.6441 1.48199C10.4166 1.15308 10.0947 0.89365 9.71683 0.734673C9.2821 0.538654 8.79842 0.463156 8.32091 0.516781C7.84341 0.570406 7.39129 0.750998 7.01608 1.03798L0.783562 5.94916C0.539156 6.1349 0.34178 6.37086 0.206117 6.63948C0.0704546 6.9081 0 7.20247 0 7.50068C0 7.79889 0.0704546 8.09326 0.206117 8.36188C0.34178 8.6305 0.539156 8.86646 0.783562 9.0522L7.01608 13.9634C7.46533 14.3112 8.02634 14.5007 8.60476 14.5Z"
+                fill="#005C7D" fill-opacity="0.5" />
+            </svg>
+          </i>
+          <div class="mitr-fonts text-[#005C7D]">Question 2/13</div>
+
+          <!-- next arrow svg -->
+
+          <i class="cursor-pointer"><svg width="11" height="15" viewBox="0 0 11 15" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.39524 14.5C2.01147 14.4978 1.63251 14.4183 1.28317 14.2667C0.905336 14.1077 0.583429 13.8483 0.355892 13.5194C0.128355 13.1905 0.00480644 12.806 0 12.4119V2.58949C0.00480644 2.19537 0.128355 1.81089 0.355892 1.48199C0.583429 1.15308 0.905336 0.89365 1.28317 0.734673C1.7179 0.538654 2.20158 0.463156 2.67909 0.516781C3.15659 0.570406 3.60871 0.750998 3.98392 1.03798L10.2164 5.94916C10.4608 6.1349 10.6582 6.37086 10.7939 6.63948C10.9295 6.9081 11 7.20247 11 7.50068C11 7.79889 10.9295 8.09326 10.7939 8.36188C10.6582 8.6305 10.4608 8.86646 10.2164 9.0522L3.98392 13.9634C3.53467 14.3112 2.97366 14.5007 2.39524 14.5Z"
+                fill="#005C7D" />
+            </svg>
+          </i>
+        </div>
+        <h1 class="mitr-fonts text-[#005C7D] font-medium text-xl md:text-2xl text-center ">
+          Add your Email address</h1>
+
+      </div>
+      <div class="h-[1px]  bg-slate-200 w-full"></div>
+
+      <div class=" mt-12   text-sm  max-w-[415px] mx-auto px-2 md:px-0 mitr-fonts  ">
+
+        <form action="" class=" ">
+
+
+          <div class="flex flex-col space-y-1">
+
+            <input id="" name="email" value="" type="email" class="input-text placeholder-[#005C7D4D] "
+              placeholder="example@mail.com">
+          </div>
+
+          <Button class="btn-next ">NEXT
+            QUESTION</Button </form>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+    <div class="hidden md:block">
+      <div class="w-full flex justify-between absolute md:bottom-2 px-2  ">
+        <img src="./img/left-person.svg" alt="" class="object-contain ">
+        <img src="./img/Frame.png" alt="" class="object-contain  relative bottom-4">
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- popup -6  -->
+
+  <div id="popup-6"
+    class=" w-full md:max-w-[934px] pb-6 md:pb-0  top-0  ease-in-out  md:min-h-[665px] flex flex-col  text-center min-h-fit     mx-auto xl:mt-20 montserat relative lg:rounded-b-[12px] shadow-[0px_8px_18px_rgba(0,0,0,0.13)] overflow-hidden  bg-black">
+    <!-- popup background image  -->
+    <div class="absolute top-0 left-0 w-full h-full overlay-2 overflow-hidden ">
+
+      <img src="./img/Quizform-3-bg.svg" alt="" class="w-full h-full aspect-video object-cover ">
+    </div>
+
+    <!-- top bar  -->
+
+    <div class=" relative  h-1 bg-[#B6E8E9] w-full min-h-[14px]">
+      <div class="w-[15%] h-full bg-[#01C6CA]"></div>
+    </div>
+
+
+
+    <!-- content  -->
+
+    <div class="   items-center justify-center z-[2] ">
+      <div class=" md:max-w-[80%] space-y-6 mx-auto   pt-10 pb-6 px-2 relative">
+        <!-- previous next arrow section  -->
+        <div class="flex items-center  space-x-3 justify-center ">
+
+          <!-- previous arrow svg -->
+
+          <i class="cursor-pointer "><svg width="11" height="15" viewBox="0 0 11 15" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M8.60476 14.5C8.98853 14.4978 9.36749 14.4183 9.71683 14.2667C10.0947 14.1077 10.4166 13.8483 10.6441 13.5194C10.8716 13.1905 10.9952 12.806 11 12.4119V2.58949C10.9952 2.19537 10.8716 1.81089 10.6441 1.48199C10.4166 1.15308 10.0947 0.89365 9.71683 0.734673C9.2821 0.538654 8.79842 0.463156 8.32091 0.516781C7.84341 0.570406 7.39129 0.750998 7.01608 1.03798L0.783562 5.94916C0.539156 6.1349 0.34178 6.37086 0.206117 6.63948C0.0704546 6.9081 0 7.20247 0 7.50068C0 7.79889 0.0704546 8.09326 0.206117 8.36188C0.34178 8.6305 0.539156 8.86646 0.783562 9.0522L7.01608 13.9634C7.46533 14.3112 8.02634 14.5007 8.60476 14.5Z"
+                fill="#005C7D" fill-opacity="0.5" />
+            </svg>
+          </i>
+          <div class="mitr-fonts text-[#005C7D]">Question 2/13</div>
+
+          <!-- next arrow svg -->
+
+          <i class="cursor-pointer"><svg width="11" height="15" viewBox="0 0 11 15" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.39524 14.5C2.01147 14.4978 1.63251 14.4183 1.28317 14.2667C0.905336 14.1077 0.583429 13.8483 0.355892 13.5194C0.128355 13.1905 0.00480644 12.806 0 12.4119V2.58949C0.00480644 2.19537 0.128355 1.81089 0.355892 1.48199C0.583429 1.15308 0.905336 0.89365 1.28317 0.734673C1.7179 0.538654 2.20158 0.463156 2.67909 0.516781C3.15659 0.570406 3.60871 0.750998 3.98392 1.03798L10.2164 5.94916C10.4608 6.1349 10.6582 6.37086 10.7939 6.63948C10.9295 6.9081 11 7.20247 11 7.50068C11 7.79889 10.9295 8.09326 10.7939 8.36188C10.6582 8.6305 10.4608 8.86646 10.2164 9.0522L3.98392 13.9634C3.53467 14.3112 2.97366 14.5007 2.39524 14.5Z"
+                fill="#005C7D" />
+            </svg>
+          </i>
+        </div>
+        <h1 class="mitr-fonts text-[#005C7D] font-medium text-xl md:text-2xl text-center ">
+          Add your Email address</h1>
+
+      </div>
+      <div class="h-[1px]  bg-slate-200 w-full"></div>
+
+      <div class=" mt-12   text-sm  max-w-[415px] mx-auto px-2 md:px-0 mitr-fonts  ">
+
+        <form action="" class=" ">
+
+
+          <div class="flex flex-col space-y-1">
+
+            <input id="" name="phone" value="" type="number" class="input-text placeholder-[#005C7D4D] "
+              placeholder="(XXX) XXX-XXXX">
+          </div>
+
+          <Button class="btn-next ">NEXT
+            QUESTION</Button </form>
+
+
+      </div>
+
+
+    </div>
+
+
+
 
     <div class="hidden md:block">
       <div class="w-full flex justify-between absolute md:bottom-2 px-2  ">
