@@ -18,8 +18,12 @@
   .option-circle-design{
     @apply rounded-full flex justify-center items-center text-center w-[30px] h-[30px] bg-[#DEFFFD] text-lg mitr-fonts shadow-[1px_1px_1px_#BDD0CF] font-medium text-[#005C7D]
   }
+
+  .option2-circle-design{
+    @apply rounded-full flex justify-center items-center text-center w-[22px] h-[22px] bg-[#DEFFFD] text-lg mitr-fonts shadow-[1px_1px_1px_#BDD0CF] font-medium text-[#005C7D]
+  }
   .btn-next {
-    @apply bg-[#09D1D0] relative md:absolute md:bottom-4 md:left-[50%] md:translate-x-[-50%] mt-5 md:mt-10 py-3  text-sm md:text-xl px-8 text-white rounded-[50px] popins font-semibold
+    @apply bg-[#09D1D0] relative md:absolute md:bottom-4 md:left-[50%] md:translate-x-[-50%] mt-8 md:mt-10 py-3  text-sm md:text-xl px-8 text-white rounded-[50px] popins font-semibold
   }
 
   .input-text {
@@ -39,11 +43,19 @@ body {
 .option-selected{
   background-color: #00C1C6;
 }
+.option-selected-second{
+  background-color: #00C1C6;
+  color:white;
+}
 
 .option{
   background-color: #005C7D;
   color:white;
   box-shadow: 1px 1px 1px #129A9D;
+}
+
+.popup-11-text {
+  color:white;
 }
 
 .gradient-background {
@@ -91,6 +103,13 @@ font-family: 'Mitr', sans-serif;
 .scale{
   transform: scale(1);
   transition: all 1s ease-in;
+}
+
+.highlight-satisfied{
+  transition: 0.1s ease-in-out;
+transform: scale(2);
+  background-color: white;
+  border:#09D1D0 solid 2px
 }
 /* fonts  */
 /*font-family: 'Anton', sans-serif;

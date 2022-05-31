@@ -65,4 +65,38 @@ $(document).ready(function () {
   });
 
   // input check
+
+  // Satified popup
+  $("form").submit(function (e) {
+    e.preventDefault();
+  });
+  $(".bar-btn").click(function () {
+    $(this).toggleClass("highlight-satisfied");
+  });
+
+  // Second select option poppup
+  $("#popup-11-option-1 ").click(function () {
+    $(this).toggleClass("option-selected-second");
+    $(".option-1-text-color").toggleClass("popup-11-text ");
+
+    $("#popup-11-choice-1").toggle();
+  });
+
+  $("#popup-11-option-2").click(function () {
+    $(this).toggleClass("option-selected-second");
+    $(".option-2-text-color").toggleClass("popup-11-text ");
+    $("#popup-11-choice-2").toggle();
+  });
+
+  $("#popup-11-option-3").click(function () {
+    $(this).toggleClass("option-selected-second");
+    $(".option-3-text-color").toggleClass("popup-11-text ");
+    $("#popup-11-choice-3").toggle();
+  });
+
+  $("#popup-11-option-4").click(function () {
+    $(this).toggleClass("option-selected-second");
+    $(".option-4-text-color").toggleClass("popup-11-text ");
+    $("#popup-11-choice-4").toggle();
+  });
 });
