@@ -99,4 +99,34 @@ $(document).ready(function () {
     $(".option-4-text-color").toggleClass("popup-11-text ");
     $("#popup-11-choice-4").toggle();
   });
+
+  // popup-14 options
+
+  $("#popup-14-option-1").click(function () {
+    $("#popup-14-option-1 span:first-child").toggleClass(
+      "popup-14-selected-option"
+    );
+    $("#popup-14-option-1 svg").toggle();
+  });
+
+  $("#popup-14-option-2").click(function () {
+    $("#popup-14-option-2 span:first-child").toggleClass(
+      "popup-14-selected-option"
+    );
+    $("#popup-14-option-2 svg").toggle();
+  });
+
+  $("#popup-14-option-3").click(function () {
+    $("#popup-14-option-3 span:first-child").toggleClass(
+      "popup-14-selected-option"
+    );
+    $("#popup-14-option-3 svg").toggle();
+  });
+
+  $("#popup-14-option-4").click(function () {
+    $("#popup-14-option-4 span:first-child").toggleClass(
+      "popup-14-selected-option"
+    );
+    $("#popup-14-option-4 svg").toggle();
+  });
 });

@@ -22,6 +22,10 @@
   .option2-circle-design{
     @apply rounded-full flex justify-center items-center text-center w-[22px] h-[22px] bg-[#DEFFFD] text-lg mitr-fonts shadow-[1px_1px_1px_#BDD0CF] font-medium text-[#005C7D]
   }
+
+  .option3-circle-design{
+    @apply rounded-md flex justify-center items-center text-center w-[30px] h-[30px] bg-[#F6F6F6] text-lg mitr-fonts font-medium text-[#005C7D]
+  }
   .btn-next {
     @apply bg-[#09D1D0] relative md:absolute md:bottom-4 md:left-[50%] md:translate-x-[-50%] mt-8 md:mt-10 py-3  text-sm md:text-xl px-8 text-white rounded-[50px] popins font-semibold
   }
@@ -56,6 +60,12 @@ body {
 
 .popup-11-text {
   color:white;
+}
+
+.popup-14-selected-option{
+  border: 1px solid #09D1D0;
+  background-color:#B6E8E9 ;
+
 }
 
 .gradient-background {
