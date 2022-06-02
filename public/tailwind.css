@@ -30,6 +30,10 @@
     @apply bg-[#09D1D0] relative md:absolute md:bottom-4 md:left-[50%] md:translate-x-[-50%] mt-8 md:mt-10 py-3  text-sm md:text-xl px-8 text-white rounded-[50px] popins font-semibold
   }
 
+  .btn-next-popup-22 {
+    @apply bg-[#09D1D0]  absolute bottom-4 md:left-[50%] translate-x-[-50%] mt-8 md:mt-10 py-3  text-sm md:text-xl px-8 text-white rounded-[50px] popins font-semibold
+  }
+
   .input-text {
     @apply h-[40px] md:h-[50px] rounded-md px-2 border border-[#01C6CA] focus:outline-none focus:border-[#01C6CA]
   }
